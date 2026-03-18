@@ -1,0 +1,11 @@
+[project]
+name = "paiban"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "pulp>=3.3.0",
+]
+
+[project.scripts]
+paiban = "scheduler:main"
